@@ -1,4 +1,4 @@
-name: "FAIRSECO-action"
+name: "FAIRSECO-action-test"
 description: "GitHub Action that assesses FAIRness in software"
 author: "Utrecht University - Slinger Jansen"
 inputs:
