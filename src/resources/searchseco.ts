@@ -70,6 +70,8 @@ export async function runModule(ghInfo: GitHubInfo): Promise<Output> {
         dockerImage,
         "check",
         gitrepo,
+        "-V",
+        "5"
     ];
     const realArgs = [
         "run",
