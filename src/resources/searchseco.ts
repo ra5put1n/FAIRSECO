@@ -78,7 +78,6 @@ export async function runModule(ghInfo: GitHubInfo): Promise<Output> {
         "--rm",
         "--name",
       "searchseco-container",
-      entrypoint,
       "-e",
         '"github_token=' + ghToken + '"',
         "-e",
